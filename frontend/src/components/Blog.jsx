@@ -18,7 +18,7 @@ const Blog = () => {
           <img
             src={blog}
             className="w-[80%] sm:w-[70%] md:w-[60%] rounded-lg"
-            alt="Blog"
+          
           />
         </div>
 
