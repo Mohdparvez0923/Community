@@ -7,7 +7,7 @@ import Signup from './pages/Signup'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css';   
 import { ToastContainer } from 'react-toastify'
-import Profile from './pages/profile'
+import Profile from './pages/Profile'
 import Post from './components/Post'
 import CreatePost from './components/CreatePost'
 import ProtectedRoute from './components/ProtectedRoute'
