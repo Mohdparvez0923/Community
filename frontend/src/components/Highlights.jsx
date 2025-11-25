@@ -8,7 +8,8 @@ const Highlights = () => {
         <div className="text-center bg-gray-600 text-white p-1">
             <div className="my-3">
                 <h1 className="text-3xl">Highlights</h1>
-                <p className="p-2 text-xl w-3xl  mx-auto">Create your community, explore what excites you, connect with people who share your passion, and build something amazing together.</p>
+                <p className="p-2 text-xl mx-auto md:w-[70%] sm:w-[50%]">
+                    Create your community, explore what excites you, connect with people who share your passion, and build something amazing together.</p>
             </div>
             <div className="flex  flex-wrap justify-center items-center gap-8 w-full min-h-[50vh] border-2 border-white rounded-3xl my-2 p-8 transition-all duration-500 ease-in-out">
 
@@ -48,7 +49,7 @@ const Highlights = () => {
                     <h1 className='text-xl font-medium tracking-wider mt-2'>build</h1>
                 </div>
 
-            </div>  
+            </div>
 
 
         </div>

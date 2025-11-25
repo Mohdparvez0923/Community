@@ -23,16 +23,16 @@ const Blog = () => {
         </div>
 
         {/* TEXT BLOCK */}
-        <div className="w-full max-w-[600px] text-left p-4 sm:p-6">
-          <h1 className="text-3xl font-medium mb-6 sm:text-center lg:text-left">
+        <div className="w-full max-w-[80%] text-left mx-auto lg:ml-0 lg:mr-auto p-4 sm:p-6">
+          <h1 className="text-3xl font-medium mb-6 text-center lg:text-left">
             Value proposition
           </h1>
-          <p className="text-xl sm:text-center lg:text-left">
+          <p className="text-xl text-center  lg:text-left">
             Our community exists to bring fresh ideas, voices, and creativity to the surface.
             It’s a space built for dreamers, builders, and thinkers — where every perspective
             matters and every idea has a chance to shine.
           </p>
-          <p className="text-xl mt-3 sm:text-center lg:text-left">
+          <p className="text-xl mt-3 text-center lg:text-left">
             We believe true growth comes from collaboration, not competition — empowering
             people to connect, create, and inspire one another to make a real impact.
           </p>
