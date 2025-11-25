@@ -54,9 +54,9 @@ const Navbar02 = () => {
           }`}
         >
           <ul className="flex flex-col space-y-3">
-            <li className="hover:text-gray-300 cursor-pointer transition">Create</li>
-            <li className="hover:text-gray-300 cursor-pointer transition">Explore</li>
-            <li className="hover:text-gray-300 cursor-pointer transition">Connect +</li>
+            <li className="hover:text-gray-300 cursor-pointer transition" onClick={()=>Navigate("/createPost")}>Create</li>
+            <li className="hover:text-gray-300 cursor-pointer transition" onClick={()=>Navigate("/post")}>Explore</li>
+            <li className="hover:text-gray-300 cursor-pointer transition" onClick={()=>Navigate("/chats")}>Chats</li>
           </ul>
           <div className="flex flex-col space-y-3 mt-4">
             <button className="border border-white px-4 py-1 rounded-2xl hover:bg-white hover:text-gray-800 transition">
